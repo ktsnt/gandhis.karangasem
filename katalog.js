@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.card-slider').slick({
-    dots: true,
+    dots: false,
     arrows: true,
     slidesToShow: 4,
     infinite: false,
