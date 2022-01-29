@@ -28,6 +28,7 @@ body {
 .card-slider .slick-prev-icon,
 .card-slider .slick-next-icon {
   color: black;
+  z-index:99;
 }
 .card-slider .slick-slide {
   padding: 0 5px;
