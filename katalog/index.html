@@ -17,6 +17,18 @@
     <a href="https://ktsnt.github.io/gandhis.karangasem/flash/"><img style="z-index: 99; position: fixed;float: right;right: 20px;width: 60px;height: auto;" src="https://raw.githack.com/ktsnt/gandhis.karangasem/katalog/flash-sale.png" alt=""></a>
   <div class="wadahbox"><p>Daftar Harga Produk<br/><b>Toko Gandhi's Laundrymart Karangasem.</b></p>
     <p style="font-family: 'Courier New', Courier, monospace;">"Geser kekanan untuk melihat produk lainnya"</p>
+<?php 
+            include ("counter.php");
+            echo "<p style='color:red; font-weight:enchant_broker_list_dicts(broker)'> $kunjungan[0] </p>";
+            ?><?php
+//proses
+$filecounter=("counter.txt");
+$kunjungan=file($filecounter);
+$kunjungan[0]++;
+$file=fopen($filecounter,"w");
+fputs($file,"$kunjungan[0]");
+fclose($file);
+?>
   <p><b>Selamat berbelanja</b></p>
 <p style="font-size:8pt;color:#ccc; text-align:right;">harga tukar jerigen</p></div>
 <!-- partial:index.partial.html -->
