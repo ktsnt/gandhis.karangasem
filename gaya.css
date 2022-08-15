@@ -24,6 +24,9 @@
 .nav--icons img{
   width: 30px;
   height: auto;
+right:0;
+left:0;
+margin:auto;
 }
 .nav--icons ul {
   list-style-type: none;
