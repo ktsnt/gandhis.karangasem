@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gandhi's KARANGASEM</title>
     <link rel="stylesheet" href="https://raw.githack.com/ktsnt/gandhis.karangasem/main/gaya.css" type="text/css">
-    <!-- Slick CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+	<!-- Slick CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="shortcut icon" href="https://raw.githack.com/ktsnt/gandhis.karangasem/main/iconweb.png" type="image/x-icon">
@@ -15,14 +16,28 @@
 .wadahbox {  background: #fff;  margin: 3% 2%;  border-radius: 0.5rem;  max-width: 96%;  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);  padding: 10px;}
 
 /*--SLICK --*/
-.slick-prev, .slick-next {width: 50px;height: 50px;top: 30px;}
-.slick-prev {left: 5px;}.slick-next {right: 5px;}
-.slick-prev:before, .slick-next:before {font-size: 40px;text-shadow: 0 0 10px rgba(0,0,0,0.5);}
-.container {max-width: 100%;margin-top: 130px;}
-.slider img{ width:90%;height: 100px;display: block;margin-right: auto;margin-left: auto;}
-.slick-dots {top: 15px;}
-.slick-dots li button:before {font-size: 12px;color: rgb(252, 7, 7);text-shadow: 0 0 10px rgba(0,0,0,0.5);opacity: 1;}
-.slick-dots li.slick-active button:before {color: #2ffd06;}
+.slider{
+    background-color: #06fdfdf6;
+    width: 95%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 60px;
+    padding: 10px;
+    text-align: center;
+    height: auto; 
+    border-radius: 30px 5px;
+}
+.slider p {
+font-family: courier;
+font-size:12pt;
+text-transform: capitalize;
+}
+.slider b{
+font-family: Times New Roman;
+text-transform: capitalize;
+color: white;
 
 /*--btn nav--*/
 .nav--icons {
@@ -87,23 +102,20 @@
 <!--logo-->
 <div style="z-index: 999; border-bottom: 10px solid #000000; top:0; position:fixed; left: 0; background-color: #fff;width: 100%;height: 90px;margin-left: auto;margin-right: auto;display: block;box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);">
   <img style="height: 85px;width: 95%;" src="https://raw.githack.com/ktsnt/gandhis.karangasem/main/header.png" alt=""></div>
-                   <!--slide img-->
-                <div class="container">
-                  <h2>Trending Product</h2>         
-                  <div class="slider">
-                    <div><a href="https://ktsnt.github.io/gandhis.karangasem/katalog/#dcA"><img src="https://raw.githack.com/ktsnt/gandhis.karangasem/main/gradeA.jpg" alt=""></a></div>
-                    <div><a href="https://ktsnt.github.io/gandhis.karangasem/katalog/#dcB"><img src="https://raw.githack.com/ktsnt/gandhis.karangasem/main/gradeB.jpg" alt=""></a></div>
-                    <div><a href="https://ktsnt.github.io/gandhis.karangasem/katalog/#pemutih"><img src="https://raw.githack.com/ktsnt/gandhis.karangasem/main/pemutih.jpg" alt=""></a></div>
-                    <div><a href="https://ktsnt.github.io/gandhis.karangasem/katalog/#clink"><img src="https://raw.githack.com/ktsnt/gandhis.karangasem/main/clink.jpg" alt=""></a></div>
-                    <div><a href="https://ktsnt.github.io/gandhis.karangasem/katalog/#kerak"><img src="https://raw.githack.com/ktsnt/gandhis.karangasem/main/kerak.jpg" alt=""></a></div>
-                    </div></div>
+                   
                   <!--isi-->
             <div class="wadahbox" style="border: red 10px solid;  text-align: center; margin-top:10px;font-size: 24px;"><div style="border: black 5px solid;"><p>Gandhi's Laundrymart adalah Usaha yang bergerak di bidang<br/>TOKO PERLENGKAPAN LAUNDRY</p>
             <img src="https://raw.githack.com/ktsnt/gandhis.karangasem/main/logogandhis.png" style="width: auto;height: 90px;display: block;margin-left: auto;margin-right: auto;" alt=""></div></div>
             <br/><hr/><iframe id="harga" style="width:100%;height:800px;border:none;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwHstCOf9-ZUMkveqweP92oGu6WCOy-xLUYVknaDeCU_cpP4CHcdXnW3nWFDPL2CcIqAhm6YmgWC5P/pubhtml?gid=85591092&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             <div id="map" style="border: rgb(70, 21, 245, 0.363) 10px solid;" class="wadahbox">ALAMAT TOKO KAMI <br/><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.552453710323!2d115.60042561416209!3d-8.445532087673001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd207789755fe43%3A0xaae8f6a644d1e72f!2sGandhi&#39;s%20laundrymart%20Karangasem!5e0!3m2!1sen!2sid!4v1643334300184!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
               
-                   <!-- JQuery -->
+                  <!--slide testi-->
+<div class="container">
+    <div class="slider">
+        <script src="https://ktsnt.github.io/gandhisBadung/isiTesti.js"></script>
+    </div>
+</div>
+ <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Slick JS -->    
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -112,8 +124,7 @@
         $(document).ready(function(){
         $('.slider').slick({
         autoplay: true,
-        autoplaySpeed: 900,
-        dots: true
+        autoplaySpeed: 3000,
         });
     });
     </script>  
