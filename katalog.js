@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('.card-slider').slick({
     dots: false,
-    arrows: true,
+    arrows: false,
     slidesToShow: 4,
     infinite: false,
     autoplay: true,
